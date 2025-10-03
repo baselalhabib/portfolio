@@ -7,30 +7,52 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>My Portfolio</h1>
-    <nav>
+
+  <!-- Top Bar -->
+  <header class="top-bar">
+    <div class="name">My Name</div>
+    <nav class="nav-tabs">
+      <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+      <a href="#cv">CV</a>
     </nav>
   </header>
 
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <p>Here you can list your skills, e.g., HTML, CSS, JavaScript, Swift, etc.</p>
+  </section>
+
+  <!-- Projects Section -->
   <section id="projects" class="grid-container">
     <div class="project-card">
       <img src="images/project1.jpg" alt="Project 1">
       <div class="overlay">
-        <h3>Project Title</h3>
+        <h3>Project Title 1</h3>
+        <p>Short description.</p>
+      </div>
+    </div>
+    <div class="project-card">
+      <img src="images/project2.jpg" alt="Project 2">
+      <div class="overlay">
+        <h3>Project Title 2</h3>
         <p>Short description.</p>
       </div>
     </div>
     <!-- Add more project cards -->
   </section>
 
+  <!-- CV Section -->
+  <section id="cv" class="section">
+    <h2>CV</h2>
+    <p>Provide a link or embed your CV here.</p>
+  </section>
+
+  <!-- Footer -->
   <footer>
     <p>© 2025 My Name</p>
   </footer>
 
-  <script src="js/script.js"></script>
 </body>
 </html>
